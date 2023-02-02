@@ -14,7 +14,7 @@
 }
 
 .navbar{
-	width: 85%;
+	width: 90%;
 	margin: auto;
 	padding: 35px 0;
 	display: flex;
@@ -23,7 +23,7 @@
 }
 
 .logo{
-	width: 250px;
+	width: 200px;
 	cursor: pointer;
 }
 
@@ -41,6 +41,10 @@
 	font-weight: bold;
 }
 
+.navbar ul li .fa-regular{
+	font-size: 28px;
+}
+
 .navbar ul li::after{
 	content: '';
 	height: 3px;
@@ -56,6 +60,77 @@
 	width: 100%;
 }
 
+.top-container{
+	margin: auto;
+	padding-top: 10px;
+}
+
+.top-container img{
+	width: 650px;
+	border-radius: 20%;
+}
+
+.top-container .col-2 h1{
+	color: white;
+	line-height: 1.6;
+	text-align: center;
+}
+
+.top-container .col-2 h3{
+	color: white;
+	line-height: 1.6;
+}
+
+.top-container .col-2 p{
+	color: white;
+	line-height: 1.6;
+}
+
+.top-container p{
+	padding-top: 10px;
+}
+
+.top-container p .fa-sharp{
+	width: 128px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	color: #000;
+	background: #fff;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+/* Product */
+.small-container .row{
+	max-width: 2160px;
+	margin: auto;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+
+.small-container h2{
+	margin-top: 80px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.col-1{
+	flex-basis: 25%;
+	padding: 1px;
+	min-width: 200px;
+	margin-bottom: 30px;
+}
+
+.col-1 img{
+	width: 70%;
+}
+
+/* Footer */
 footer{
 	width: 100%;
 	position: relative;
@@ -63,7 +138,7 @@ footer{
 	background: linear-gradient(to right, #00093c, #2d0b00);
 	color: #fff;
 	padding: 50px 0 30px;
-	margin-top: -110px ;
+	margin-top: 110px ;
 	border-top-left-radius: 125px;
 	font-size: 13px;
 	min-height: 100;

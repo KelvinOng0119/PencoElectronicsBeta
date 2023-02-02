@@ -5,6 +5,24 @@
 	box-sizing: border-box;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
 .banner{
 	width: 100%;
 	height: 100vh;
@@ -14,7 +32,7 @@
 }
 
 .navbar{
-	width: 85%;
+	width: 90%;
 	margin: auto;
 	padding: 35px 0;
 	display: flex;
@@ -23,7 +41,7 @@
 }
 
 .logo{
-	width: 250px;
+	width: 200px;
 	cursor: pointer;
 }
 
@@ -39,6 +57,10 @@
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
+}
+
+.navbar ul li .fa-regular{
+	font-size: 28px;
 }
 
 .navbar ul li::after{
@@ -114,19 +136,6 @@ button:hover span{
 
 button:hover{
 	border: none;
-}
-
-.AboutUs{
-	background-color: black;
-}
-
-.AboutUs h4{
-	color: #fff;
-	margin: 1px auto;
-}
-
-.AboutUs p{
-	color: #fff;
 }
 
 footer{

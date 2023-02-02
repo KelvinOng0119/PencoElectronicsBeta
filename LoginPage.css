@@ -14,7 +14,7 @@
 }
 
 .navbar{
-	width: 85%;
+	width: 90%;
 	margin: auto;
 	padding: 35px 0;
 	display: flex;
@@ -23,7 +23,7 @@
 }
 
 .logo{
-	width: 250px;
+	width: 200px;
 	cursor: pointer;
 }
 
@@ -39,6 +39,10 @@
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
+}
+
+.navbar ul li .fa-regular{
+	font-size: 28px;
 }
 
 .navbar ul li::after{
